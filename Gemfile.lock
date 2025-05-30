@@ -1,9 +1,10 @@
 PATH
   remote: .
   specs:
-    raix-rails (0.3.0)
+    raix-rails (0.3.1)
       activesupport (>= 6.0)
       open_router (~> 0.2)
+      ruby-openai (~> 7.0)
 
 GEM
   remote: https://rubygems.org/
@@ -197,6 +198,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-24
   x86_64-linux
 
 DEPENDENCIES
@@ -211,7 +213,6 @@ DEPENDENCIES
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)
-  ruby-openai (~> 7.0)
   solargraph-rails (~> 0.2.0.pre)
   sorbet
   tapioca
